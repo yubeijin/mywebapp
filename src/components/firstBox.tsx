@@ -5,8 +5,10 @@ export default function useContact() {
     setData(!data)
 
   }
+
   const ele = () => {
-    if (data) return <div></div>
+    if (data) return <div>zhende</div>
+    return <div>jiade</div>
   }
   return (
     <div className="first-box">
