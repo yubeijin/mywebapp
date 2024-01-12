@@ -31,16 +31,6 @@ export default function useContact() {
           <div>GitFlow、Docker、NodeJS、ApolloGraphQL</div>
         </div>
         <div className="contact-way">3</div>
-        {/* <div>
-          {data.map(item => <li key={item}>item</li>)}
-        </div> */}
-        <div>
-          {!data ? <div>123</div> : <div>456</div>}
-        </div>
-        <div>
-          {ele()}
-        </div>
-        <button onClick={() => handleClick()}>dianji</button>
       </div>
     </div>
   )
